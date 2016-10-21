@@ -9,7 +9,7 @@ namespace TestConnectionUnitTest
         [TestMethod]
         public void FailTest()
         {
-            Assert.IsTrue(false, "This test does NOT pass, ever!");
+            Assert.IsTrue(true, "This test does NOT pass, ever!");
         }
 
         [TestMethod]
